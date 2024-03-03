@@ -1,0 +1,69 @@
+.container-login{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-login{
+    width: 35%;
+    margin-top: 4%;
+    background-color: #CCE3DE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    padding: 1rem 0;
+}
+.box-login .header-form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+}
+.box-login .header-form img{
+    width: 28%;
+    margin-bottom: 1rem;
+}
+.box-login .header-form p{
+    font-size: .8rem;
+}
+.form-login{
+    width: 85%;
+}
+.form-login .wrapper-input{
+    width: 100%;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+.wrapper-input input{
+    padding: 1rem .6rem !important;
+}
+.btn-login{
+    background-color: #6B9080;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.form-login .login-divi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 1rem auto;
+}
+.btn-logingoogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+.btn-logingoogle span{
+    font-size: 1.4rem;
+    font-weight: 700;
+}

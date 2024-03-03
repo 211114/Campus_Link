@@ -1,0 +1,34 @@
+.container-feed{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myprofile-box{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EAF4F4;
+}
+
+.txt-infouser{
+    font-size: .8rem;
+}
+.counts{
+    font-size: .8rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 1.4rem 0 1rem 0;
+}
+.counts .item{
+    background-color: #A4C3B2;
+    padding: .6rem 1rem .6rem 1rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+.counts span{
+    font-weight: 700;
+}
+
+
